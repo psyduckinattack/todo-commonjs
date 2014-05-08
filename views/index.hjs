@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+
+    <div class="todo_container ">
+        <div class="todo_new_point">
+            <div class="todo_new_point_text">Добавить новый пункт (ctrl + enter):</div>
+            <p>
+                <input type="text" placeholder="Что же сделать?" id="todo_new_point_description" />
+            </p>
+        </div>
+
+        <div id="todo_list" class="todo_list">
+
+        </div>
+    </div>
+
+    <script src="/client/todo.js"></script>
+  </body>
+</html>

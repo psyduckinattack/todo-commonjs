@@ -1,0 +1,5 @@
+{
+    "name" : "dal",
+    "main" : "./node.js",
+    "browser": "./browser.js"
+}

@@ -1,0 +1,39 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.todo_container {
+    width: 40%;
+}
+
+.todo_list {
+    background: #fff180;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+.todo_list li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.todo_list li.todo_point_checked {
+    text-decoration: line-through;
+    color: rgba(46, 46, 46, 0.62);
+}
+
+.todo_new_point {
+    background: #f1f1f1;
+    padding: 8px;
+}
+
+.todo_new_point input {
+    padding: 4px;
+}
